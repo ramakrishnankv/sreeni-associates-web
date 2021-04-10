@@ -1,0 +1,22 @@
+.homePage .contentBox {
+  scroll-margin-top: 140px;
+}
+
+.homePage .aboutUs {
+  background: #ffffff;
+  background-image: url("../../assets/images/tax.jpg");
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0) 0,
+      rgba(255, 255, 255, 0) 35%,
+      rgba(255, 255, 255, 0.6) 45%,
+      rgba(255, 255, 255, 1) 55%
+    ),
+    url("../../assets/images/tax.jpg") no-repeat 100% 0;
+  background-size: contain;
+  padding-right: 45%;
+}
+
+.homePage .aboutUs .content {
+  text-align: justify;
+}

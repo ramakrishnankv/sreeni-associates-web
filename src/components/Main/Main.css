@@ -1,0 +1,9 @@
+.appMain {
+  padding: 25px;
+  min-height: 80vh;
+  max-width: var(--size-1200);
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--color-white);
+  box-shadow: 0 0 30px -10px var(--color-blue-1);
+}

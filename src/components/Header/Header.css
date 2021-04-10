@@ -1,0 +1,87 @@
+.appHeader {
+  background-color: rgba(var(--color-rgb-white), 0.85);
+  position: sticky;
+  top: 0;
+  display: grid;
+  box-shadow: var(--box-shadow-1);
+  border-bottom: 16px solid var(--color-blue-1);
+  background: linear-gradient(
+    to bottom,
+    var(--color-blue-3) -30%,
+    var(--color-white) 50%
+  );
+}
+
+.headerInner {
+  display: flex;
+  max-width: var(--size-1200);
+  padding: 0 25px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logoWrap {
+  display: flex;
+  flex-grow: 1;
+  max-width: 40%;
+  min-width: 400px;
+}
+
+.orgName {
+  font-family: var(--title-font-family-1);
+  flex-grow: 1;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-blue-0);
+  min-height: 92px;
+}
+
+.orgName h2 {
+  margin: 33px 0 0 0;
+  line-height: 0.8;
+}
+
+.orgName h3 {
+  margin: 0 0 12px 0;
+}
+
+.logoBox {
+  /* border: 1px solid #c4c4c4; */
+  /* border-radius: 8px; */
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.logo {
+  height: 100%;
+  width: 90px;
+  background: url("../../assets/images/ca_logo.png") no-repeat 0 0;
+  background-size: contain;
+}
+
+.nav {
+  flex-grow: 1;
+  align-self: flex-end;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav ul li a {
+  padding: 5px 10px;
+}
+
+.nav a:hover {
+  text-decoration: none;
+}
+
+.navList {
+  justify-content: flex-end;
+}
+
+.selected {
+  border-bottom: 2px solid var(--color-green-5);
+  padding-bottom: 3px;
+}

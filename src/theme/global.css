@@ -1,0 +1,24 @@
+@import "./fonts.css";
+@import "./colors.css";
+@import "./sizes.css";
+
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--regular-font-family-1);
+  letter-spacing: 0.3px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--color-bright-blue-0);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

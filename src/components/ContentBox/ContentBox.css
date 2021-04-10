@@ -1,0 +1,21 @@
+.contentBox {
+  min-height: 200px;
+}
+
+.margin {
+  margin-bottom: 40px;
+}
+
+.padding {
+  padding: 30px;
+}
+
+.shadow {
+  border: var(--border-color-1);
+  border-radius: 2px;
+  box-shadow: var(--box-shadow-1);
+}
+
+.contentBox h3 {
+  margin-top: 0;
+}

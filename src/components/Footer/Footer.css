@@ -1,0 +1,11 @@
+.appFooter {
+  background-color: #efefef;
+  padding: 25px;
+  border-top: 1px solid #999999;
+}
+
+.footerInner {
+  max-width: var(--size-1200);
+  width: 100%;
+  margin: 0 auto;
+}

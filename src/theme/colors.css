@@ -1,0 +1,17 @@
+:root {
+  --color-white: #ffffff;
+  --color-blue-0: #093f62;
+  --color-blue-1: #3381a4;
+  --color-blue-2: #a6dcf2;
+  --color-blue-3: #bfe7f5;
+  --color-blue-4: #eef8fc;
+  --color-bright-blue-0: #0073ee;
+  --color-orange-0: #ff9900;
+  --color-green-5: #81b84d;
+
+  --color-rgb-white: 255, 255, 255;
+
+  --box-shadow-1: 0px 8px 8px -4px rgba(0, 0, 0, 0.2);
+
+  --border-color-1: 1px solid rgba(0, 0, 0, 0.1);
+}
