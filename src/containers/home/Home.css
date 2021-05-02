@@ -13,10 +13,14 @@
       rgba(255, 255, 255, 1) 55%
     ),
     url("../../assets/images/tax.jpg") no-repeat 100% 0;
-  background-size: contain;
-  padding-right: 45%;
+  background-size: cover;
+  padding-right: 33%;
 }
-
+.homePage .aboutUs .title {
+}
 .homePage .aboutUs .content {
+  background-color: rgba(255, 255, 255, 0.6);
   text-align: justify;
+  padding: 8px 30px;
+  padding-left: 0;
 }

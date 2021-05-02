@@ -1,0 +1,75 @@
+.carousel-root {
+  display: flex;
+}
+.carousel-root .carousel-slider {
+  order: 2;
+}
+.carousel-slider .slider-wrapper .slider {
+  min-height: 300px;
+}
+.carousel-root .carousel:not(.carousel-slider) {
+  max-width: 210px;
+  order: 1;
+}
+.carousel-slider .slider .slide {
+  text-align: left;
+  padding-left: 24px;
+  padding-right: 12px;
+  padding-bottom: 40px;
+}
+.carousel .thumbs-wrapper {
+  margin: 0;
+}
+.carousel .thumbs {
+  white-space: normal;
+  transform: none !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.carousel .thumb {
+  width: auto !important;
+  cursor: pointer;
+  margin: 0;
+  margin-bottom: 8px;
+  padding: 4px;
+  display: block;
+  border-bottom: 3px solid transparent;
+  color: var(--color-bright-blue-0);
+}
+.carousel .thumb,
+.carousel .thumb.selected,
+.carousel .thumb:hover,
+.carousel .thumb:focus {
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+.carousel .thumb.selected {
+  color: var(--color-green-0);
+}
+.carousel .thumb.selected:after {
+  content: " \27A4";
+  float: right;
+}
+.carousel .control-next.control-arrow::before {
+  border-left-color: var(--color-black);
+  margin-right: -30px;
+}
+.carousel .control-prev.control-arrow::before {
+  border-right-color: var(--color-black);
+  margin-left: -30px;
+}
+.carousel .control-arrow {
+  width: 50px;
+}
+.carousel:not(.carousel-slider) .control-arrow {
+  display: none;
+}
+.carousel .control-dots .dot {
+  background-color: var(--color-green-0);
+  width: 12px;
+  height: 12px;
+}
+.carousel .control-dots .dot.selected {
+  border-color: var(--color-green-7);
+}

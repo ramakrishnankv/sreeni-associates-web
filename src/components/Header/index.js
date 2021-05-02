@@ -9,17 +9,21 @@ const menuList = [
     anchor: 'aboutUs',
   },
   {
-    name: 'Key Practices',
-    anchor: 'keyPractices',
-  },
-  {
     name: 'Team',
     anchor: 'team',
   },
   {
-    name: 'Location',
-    anchor: 'location',
+    name: 'Key Practices',
+    anchor: 'keyPractices',
   },
+  {
+    name: 'Key Links',
+    anchor: 'keyLinks',
+  },
+  // {
+  //   name: 'Location',
+  //   anchor: 'location',
+  // },
   {
     name: 'Contact Us',
     anchor: 'contactUs',

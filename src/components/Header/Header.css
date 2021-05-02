@@ -10,6 +10,7 @@
     var(--color-blue-3) -30%,
     var(--color-white) 50%
   );
+  z-index: 3000;
 }
 
 .headerInner {
