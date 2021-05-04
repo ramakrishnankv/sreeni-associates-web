@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sreeni-associates-web/static/css/main.05047e33.chunk.css",
+    "main.js": "/sreeni-associates-web/static/js/main.5644a488.chunk.js",
+    "main.js.map": "/sreeni-associates-web/static/js/main.5644a488.chunk.js.map",
+    "runtime-main.js": "/sreeni-associates-web/static/js/runtime-main.74c34999.js",
+    "runtime-main.js.map": "/sreeni-associates-web/static/js/runtime-main.74c34999.js.map",
+    "static/css/2.95528c83.chunk.css": "/sreeni-associates-web/static/css/2.95528c83.chunk.css",
+    "static/js/2.5ddd0f34.chunk.js": "/sreeni-associates-web/static/js/2.5ddd0f34.chunk.js",
+    "static/js/2.5ddd0f34.chunk.js.map": "/sreeni-associates-web/static/js/2.5ddd0f34.chunk.js.map",
+    "static/js/3.19d8598c.chunk.js": "/sreeni-associates-web/static/js/3.19d8598c.chunk.js",
+    "static/js/3.19d8598c.chunk.js.map": "/sreeni-associates-web/static/js/3.19d8598c.chunk.js.map",
+    "index.html": "/sreeni-associates-web/index.html",
+    "static/css/2.95528c83.chunk.css.map": "/sreeni-associates-web/static/css/2.95528c83.chunk.css.map",
+    "static/css/main.05047e33.chunk.css.map": "/sreeni-associates-web/static/css/main.05047e33.chunk.css.map",
+    "static/js/2.5ddd0f34.chunk.js.LICENSE.txt": "/sreeni-associates-web/static/js/2.5ddd0f34.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/sreeni-associates-web/static/media/ca_logo.0ad04883.png",
+    "static/media/Home.css": "/sreeni-associates-web/static/media/tax.aae62b05.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74c34999.js",
+    "static/css/2.95528c83.chunk.css",
+    "static/js/2.5ddd0f34.chunk.js",
+    "static/css/main.05047e33.chunk.css",
+    "static/js/main.5644a488.chunk.js"
+  ]
+}
