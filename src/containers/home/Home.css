@@ -15,12 +15,48 @@
     url("../../assets/images/tax.jpg") no-repeat 100% 0;
   background-size: cover;
   padding-right: 33%;
+  margin-top: -30px;
 }
 .homePage .aboutUs .title {
+  background-size: contain;
+  padding-right: 45%;
+  margin-top: -40px;
+  padding-top: 50px;
 }
 .homePage .aboutUs .content {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   text-align: justify;
   padding: 8px 30px;
   padding-left: 0;
+}
+
+.homePage .keyPractices {
+  background-color: var(--color-blue-0a);
+  color: var(--color-white);
+}
+
+.homePage .keyPractices a,
+.homePage .keyPractices a:link,
+.homePage .keyPractices a:hover,
+.homePage .keyPractices a:active,
+.homePage .keyPractices a:focus {
+  color: var(--color-white);
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: -8px;
+}
+
+.row > * {
+  margin: 8px;
+}
+
+.split-8-4 > *:first-child {
+  flex: 6 0 50%;
+}
+
+.split-8-4 > *:last-child {
+  flex-grow: 6 0 50%;
 }

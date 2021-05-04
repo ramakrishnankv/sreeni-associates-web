@@ -11,11 +11,47 @@
 }
 
 .shadow {
-  border: var(--border-color-1);
+  border: var(--border-style-1);
   border-radius: 2px;
   box-shadow: var(--box-shadow-1);
 }
 
+.expandlg {
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.roundxl {
+  border-radius: 12px;
+}
+
+.roundlg {
+  border-radius: 8px;
+}
+
+.roundmd {
+  border-radius: 6px;
+}
+
+.roundsm {
+  border-radius: 4px;
+}
+
+.roundxs {
+  border-radius: 3px;
+}
+
 .contentBox h3 {
   margin-top: 0;
+}
+
+.contentBox .title {
+  color: var(--color-blue-0);
+}
+
+.contentBox .title.rule {
+  border-bottom: var(--border-style-3);
+  padding-bottom: 4px;
 }

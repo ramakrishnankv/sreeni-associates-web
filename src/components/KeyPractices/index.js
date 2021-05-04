@@ -12,12 +12,11 @@ const KeyPractices = () => {
     <div>
       <h3>{ item.title }</h3>
       {ReactHtmlParser(item.content)}
-      {/* <p className="legend">Legend 1</p> */}
     </div>
   ));
 
   return (
-    <Carousel renderThumbs={thumbs}>
+    <Carousel renderThumbs={thumbs} className="solo" >
       { texts }
     </Carousel>
   )

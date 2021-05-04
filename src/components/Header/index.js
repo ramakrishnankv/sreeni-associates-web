@@ -17,6 +17,10 @@ const menuList = [
     anchor: 'keyPractices',
   },
   {
+    name: 'Contact Us',
+    anchor: 'contactUs',
+  },
+  {
     name: 'Key Links',
     anchor: 'keyLinks',
   },
@@ -24,10 +28,6 @@ const menuList = [
   //   name: 'Location',
   //   anchor: 'location',
   // },
-  {
-    name: 'Contact Us',
-    anchor: 'contactUs',
-  }
 ]
 
 const Header = () => {

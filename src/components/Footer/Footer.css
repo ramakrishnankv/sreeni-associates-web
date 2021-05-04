@@ -1,11 +1,34 @@
 .appFooter {
-  background-color: #efefef;
+  background-color: var(--color-blue-1);
   padding: 25px;
   border-top: 1px solid #999999;
+  color: var(--color-gray-3);
+  font-size: 14px;
 }
 
 .footerInner {
   max-width: var(--size-1200);
   width: 100%;
   margin: 0 auto;
+}
+
+.footerLinks {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.flink {
+  padding: 16px;
+}
+
+.flink p {
+  margin-bottom: 4px;
+}
+
+.flink a,
+.flink a:hover,
+.flink a:active,
+.flink a:focus {
+  color: var(--color-white);
 }

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './Main.css';
 
 const Main = ({ children }) => (
-  <main className="appMain">
+  <main className="main">
     { children }
   </main>
 );

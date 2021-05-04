@@ -41,6 +41,7 @@
 .orgName h2 {
   margin: 33px 0 0 0;
   line-height: 0.8;
+  white-space: nowrap;
 }
 
 .orgName h3 {

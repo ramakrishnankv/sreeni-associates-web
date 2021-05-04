@@ -11,7 +11,7 @@
 }
 
 .shadow {
-  border: var(--border-color-1);
+  border: var(--border-style-1);
   border-radius: 2px;
   box-shadow: var(--box-shadow-1);
 }
