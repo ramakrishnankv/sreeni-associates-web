@@ -2,9 +2,14 @@
   scroll-margin-top: 140px;
 }
 
+.homePage .keyPractices .title.rule {
+  border-color: var(--color-white);
+  color: var(--color-white);
+}
+
 .homePage .aboutUs {
   background: #ffffff;
-  background-image: url("../../assets/images/tax.jpg");
+  background-image: url("../../assets/images/chess.jpg");
   background: linear-gradient(
       to left,
       rgba(255, 255, 255, 0) 0,
@@ -12,9 +17,9 @@
       rgba(255, 255, 255, 0.6) 45%,
       rgba(255, 255, 255, 1) 55%
     ),
-    url("../../assets/images/tax.jpg") no-repeat 100% 0;
-  background-size: cover;
-  padding-right: 33%;
+    url("../../assets/images/chess.jpg") no-repeat 100% 0;
+  background-size: contain;
+  padding-right: 37%;
   margin-top: -30px;
 }
 .homePage .aboutUs .title {

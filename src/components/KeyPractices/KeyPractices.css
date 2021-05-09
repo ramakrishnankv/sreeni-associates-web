@@ -25,6 +25,9 @@
   line-height: 1.55;
   letter-spacing: 0.5px;
 }
+.carousel-slider .slide ol li {
+  margin-bottom: 8px;
+}
 .carousel .thumbs-wrapper {
   margin: 0;
 }
